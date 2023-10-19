@@ -1,0 +1,67 @@
+/* Estilos para o corpo da calculadora */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para o container da calculadora */
+.calculadora {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px; 
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para os títulos */
+h1 {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+/* Estilos para as células */
+div {
+    margin-bottom: 15px;
+}
+
+/* Estilos para rótulos (labels) */
+label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+/* Estilos para campos de entrada (inputs) */
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Estilos para o botão de calcular */
+#Calcular {
+    background-color: #0074cc;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#Calcular:hover {
+    background-color: #005aa8;
+}
+
+/* Estilos para o resultado */
+#resultado {
+    font-size: 18px;
+    font-weight: bold;
+}
